@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./img/logo-removebg-preview.png" type="image/x-icon">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Jerseyr Bazar</title>
+  
+</head>
+<body class="bg-gray-900 text-white font-sans">
+   <!-- Navbar -->
+   <nav class="fixed top-0 left-0 w-full bg-gray-900 z-50">
+    <div class="max-w-7xl mx-auto px-4">
+        <div class="flex items-center justify-between py-4">
+            <!-- Company Logo -->
+            <div class="flex items-center">
+                <a href="index.html"><img src="./img/logo-removebg-preview.png" alt="Company Logo" class="h-20 w-20 mr-2"></a>
+                <!-- <span class="text-lg font-semibold text-sky-500	">জার্সির</span> <span class="text-lg font-semibold text-orange-700"> বাজার</span> -->
+            </div>
+            <!-- Navigation Items -->
+            <ul class="hidden sm:flex items-center space-x-6">
+                       
+              <li><a href="Contact.html" class="hover:text-orange-400">Contact</a></li>
+            </ul>
+            <!-- Mobile Menu Button -->
+            <div class="sm:hidden">
+                <button id="mobile-menu-btn" class="text-xl focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="sm:hidden bg-gray-800">
+        <ul class="py-2 px-4 space-y-4">
+         
+          <li><a href="Contact.html" class="hover:text-orange-400">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<!--  -->
+
+<!-- baner -->
+<section class=" relative h-full md:h-screen bg-cover bg-center flex items-center justify-center mx-2 my-2 mt-[120px]"   style="background-image: url('./img/baner.png')" >
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-black opacity-60"></div>
+  <!-- Container -->
+  <div class="container mx-auto text-center relative z-10">
+      <!-- Headers -->
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 text-white">Welcome to <span class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 text-sky-500	">Jerseyr</span> <span class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 text-orange-700"> Bazar</span> </h1>
+      <h2 class="text-xl sm:text-2xl lg:text-3xl font-semibold mb-8 text-white">Discover Amazing Things Here</h2>
+      <!-- Items -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="p-4 bg-white bg-opacity-50 rounded-lg shadow-lg hover:transform hover:scale-105 transition duration-300 ease-in-out">
+             <img src="./img/9a0feb45a1ac83dde4661d026b880337.gif" alt="">
+          </div>
+          <div class="p-4 bg-white bg-opacity-50 rounded-lg shadow-lg hover:transform hover:scale-105 transition duration-300 ease-in-out">
+            <img src="./img/0f877e3232c916acb5a7e6e72915b67b.gif" alt="">
+          </div>
+          <div class="p-4 bg-white bg-opacity-50 rounded-lg shadow-lg hover:transform hover:scale-105 transition duration-300 ease-in-out">
+            <img src="./img/e08232dc3b275443d16910fb9ee27991.gif" alt="">
+          </div>
+      </div>
+  </div>
+</section>
+<!-- script -->
+
+<!-- card section -->
+<div class="bg-gray-100 py-8">
+    <div class="container mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- Card 1 -->
+        <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+          <img class="w-full h-64 object-cover" src="./img/1.jpg" alt="Card Image">
+          <div class="p-6">
+            <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+            <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+          </div>
+        </div>
+        
+        <!-- Card 2 -->
+        <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+          <img class="w-full h-64 object-cover" src="./img/2.jpg" alt="Card Image">
+          <div class="p-6">
+            <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+            <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+          </div>
+        </div>
+        
+        <!-- Card 3 -->
+        <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+          <img class="w-full h-64 object-cover" src="./img/3.jpg" alt="Card Image">
+          <div class="p-6">
+            <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+              <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/4.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/5.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+          <!-- 6 -->
+          <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/6.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+          <!-- 7 -->
+          <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/7.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+          <!-- 8 -->
+          <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/8.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+          <!-- 9 -->
+          <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/9.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+          <!-- 10 -->
+          <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/10.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+          <!-- 11 -->
+          <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/11.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+          <!-- 12 -->
+          <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/12.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+          <!-- 13 -->
+          <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/13.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 14 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/14.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 15 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/15.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 16 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/16.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 17 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/17.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 18 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/18.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 19 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/19.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 20 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/20.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 21 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/21.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 22 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/22.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 23 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/23.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 24 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/24.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 25 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/26.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 26 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/27.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 27 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/28.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 28 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/29.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 29 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/30.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 30 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/31.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 31 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/32.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 32 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/33.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 33 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/34.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 34 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/35.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 35 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/36.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 36 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/37.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 37 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/38.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 38 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/39.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 39 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/40.jpg" alt="Card Image">
+            <div class="p-6">
+                <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+                <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           <!-- 40 -->
+           <div class="rounded-lg overflow-hidden bg-white shadow-lg transform hover:scale-105 transition duration-300">
+            <img class="w-full h-64 object-cover" src="./img/41.jpg" alt="Card Image">
+            <div class="p-6">
+              <h3 class="text-xl font-extrabold  text-gray-800">Size</h3>
+              <p class="text-gray-600 mt-2 font-semibold ">S-M-L-XL-XXL</p>
+            </div>
+          </div>
+           
+      </div>
+    </div>
+  </div>
+<!--  -->
+
+<!-- footer -->
+
+
+<!--  -->
+
+  <script>
+    // Mobile Menu Toggle
+    document.getElementById('mobile-menu-btn').addEventListener('click', function () {
+        var mobileMenu = document.getElementById('mobile-menu');
+        mobileMenu.classList.toggle('hidden'); // Toggle the 'hidden' class
+    });
+  
+    // Initially hide the navigation items
+    document.addEventListener("DOMContentLoaded", function () {
+        var mobileMenu = document.getElementById('mobile-menu');
+        mobileMenu.classList.add('hidden');
+    });
+  </script>
+</body>
+
+</html>
